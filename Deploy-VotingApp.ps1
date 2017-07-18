@@ -271,7 +271,7 @@ function Format-ValidationOutput {
 
 #region variables
 #do not change these variables
-$SQLDBName = 'VotingApp'
+$SQLDBName = 'KevinVotingApp'
 $SQLDBEdition = 'Standard'
 $VotingAppFunctionName = 'Vote'
 $AADAppCertValidMonth = 24
@@ -280,17 +280,17 @@ $SQLReadOnlyUserPassword = New-Password -Length 12 -LowerCase -UpperCase -Number
 $arrFilesToRemove = New-Object System.Collections.ArrayList
 
 #Change the following variables to suit your environment
-$AzureSubscriptionId = '1ffcaf1b-912e-4dd7-8635-fb5fc54d4aff'
-$ResourceGroupName = 'VotingAppDemo'
-$ResourceGroupLocation = 'East US'
+$AzureSubscriptionId = '10012799-2ef4-4c17-8643-83668bdbc2ff'
+$ResourceGroupName = 'KevinVotingAppDemo'
+$ResourceGroupLocation = 'Southeast Asia'
 $StorageAccountType= 'Standard_GRS'
-$SQLServerName = 'VotingAppSQL'
+$SQLServerName = 'KevinVotingAppSQL'
 $SQLDBPricingTier = 'S0'
 $SQLAdminUserName = 'SQLAdmin'
 $SQLReadOnlyUserName = 'SQLReadOnly'
-$FunctionAppName = "functionsvotingappdemo"
-$AzureFunctionAppsRegion = 'East US'
-$KeyVaultName = 'votingappdemokv'
+$FunctionAppName = "kevinfunctionsvotingappdemo"
+$AzureFunctionAppsRegion = 'Southeast Asia'
+$KeyVaultName = 'kevinvotingappdemokv'
 $QRCodeImageFormat = 'png'
 $QRCodeSize = 500
 
